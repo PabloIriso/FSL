@@ -19,7 +19,7 @@ test1.sh -->
 
 Other useful scripts:  
 bed_cp.sh -->  
-dt_cp.sh -->  
+dti_cp.sh -->  
 exclusion_cp.sh -->  
 
 
