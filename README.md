@@ -1,4 +1,4 @@
-# FSL
+# Tractography_Huntington_Disease
 
 **BEDPOSTX** stands for *Bayesian Estimation of Diffusion Parameters Obtained using Sampling Techniques*. The X stands for modelling Crossing Fibres. bedpostx runs Markov Chain Monte Carlo sampling to build up distributions on diffusion parameters at each voxel. It creates all the files necessary for running probabilistic tractography.  
 
