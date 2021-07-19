@@ -5,8 +5,8 @@ executive - caudate
 motivational - accumbens
 motor - putamen
 
-exclusion_cp.sh --> 
-exclusion_masks.sh --> 
+exclusion_cp.sh --> \\
+exclusion_masks.sh --> \\
 FA_values.sh --> 
 probtrackx_accumbens.sh --> 
 probtrackx_caudate.sh --> 
