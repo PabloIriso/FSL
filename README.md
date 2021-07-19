@@ -1,5 +1,6 @@
 # FSL
 
+https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FDT/UserGuide
 
 **executive - caudate  
 motivational - accumbens  
