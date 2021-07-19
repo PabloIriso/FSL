@@ -1,12 +1,21 @@
 # FSL
 
+BEDPOSTX stands for Bayesian Estimation of Diffusion Parameters Obtained using Sampling Techniques. The X stands for modelling Crossing Fibres. bedpostx runs Markov Chain Monte Carlo sampling to build up distributions on diffusion parameters at each voxel. It creates all the files necessary for running probabilistic tractography.  
+
+A whole range of tools is available to guide the tractography. The most powerful of these is to select the seed region, which defines where the streamlines originate. In addition to this we can set termination masks to stop the streamlines, and waypoint/exclusion masks to filter out those streamlines not relevant for our analysis:  
+exclusion_masks.sh --> 
+
+
+After bedpostx has been applied it is possible to run tractography analyses using probtrackx2. Briefly, probtrackx2 produces sample streamlines, by starting from some seed and then iterate between (1) drawing an orientation from the voxel-wise bedpostX distributions, (2) taking a step in this direction, and (3) checking for any termination criteria. These sample streamlines can then be used to build up a histogram of how many streamlines visited each voxel or the number of streamlines connecting specific brain regions. This streamline distribution can be thought of as the posterior distribution on the streamline location or the connectivity distribution.  
+
+
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FDT/UserGuide
 
 **executive - caudate  
 motivational - accumbens  
 motor - putamen**  
 
-exclusion_masks.sh -->  
+ 
 FA_values.sh -->   
 probtrackx_accumbens.sh -->  
 probtrackx_caudate.sh -->   
