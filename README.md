@@ -25,7 +25,7 @@ motor - putamen**
  
 FA_values.sh -->   
 
-rename_masks.sh -->   
+ 
 rois_convert.sh -->  
 subcortical_masks.sh -->   
 sub_masks_test.sh -->  
@@ -36,7 +36,7 @@ Other useful scripts:
 bed_cp.sh -->  
 dti_cp.sh -->  
 exclusion_cp.sh -->  
-
+rename_masks.sh -->  
 
 exclusion_cp <- Copia los archivos necesarios para la obtencion de las exlcusion masks desde los ficheros de Irene /CSF y Middline)
 Exlcusion_masks <- Crea las mascaras de exclusion.
