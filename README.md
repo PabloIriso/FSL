@@ -5,7 +5,6 @@
 motivational - accumbens  
 motor - putamen**  
 
-exclusion_cp.sh -->  
 exclusion_masks.sh -->  
 FA_values.sh -->   
 probtrackx_accumbens.sh -->  
@@ -21,6 +20,7 @@ test1.sh -->
 Other useful scripts:  
 bed_cp.sh -->  
 dt_cp.sh -->  
+exclusion_cp.sh -->  
 
 
 exclusion_cp <- Copia los archivos necesarios para la obtencion de las exlcusion masks desde los ficheros de Irene /CSF y Middline)
