@@ -3,7 +3,7 @@
 
 **executive - caudate  
 motivational - accumbens  
-motor - putamen  **
+motor - putamen**  
 
 exclusion_cp.sh -->  
 exclusion_masks.sh -->  
