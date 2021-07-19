@@ -1,9 +1,9 @@
 # FSL
 
 
-executive - caudate
-motivational - accumbens
-motor - putamen
+**executive - caudate  
+motivational - accumbens  
+motor - putamen  **
 
 exclusion_cp.sh -->  
 exclusion_masks.sh -->  
