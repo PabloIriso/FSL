@@ -29,8 +29,6 @@ FA_values.sh -->
 rois_convert.sh -->  
 subcortical_masks.sh -->   
 sub_masks_test.sh -->  
-test.sh -->  
-test1.sh -->  
 
 Other useful scripts:  
 bed_cp.sh -->  
