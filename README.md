@@ -42,4 +42,3 @@ Exlcusion_masks <- Crea las mascaras de exclusion.
 bed_cp <- Copia los archivos necesarios para la obtencion de los tractos
 (Algunos individuos no tienen mascara Bed).
 
-probtrack_${cortical} <- Crea los tractos
