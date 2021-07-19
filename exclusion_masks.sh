@@ -51,7 +51,6 @@ for group in Controls Patients; do
 
             fslmaths "$DIR/$group/$name/Exclusion_masks/exclusion_mask_CSF_middline_caudate_${side}.nii.gz" -add "$DIR/$group/$name/Cortical_masks/putamen/FA_image_${side}_normalized.nii.gz" -add "$DIR/$group/$name/Cortical_masks/accumbens/FA_image_${side}_normalized.nii.gz"  -bin "$DIR/$group/$name/Exclusion_masks/exclusion_mask_total_caudate_${side}.nii.gz" #exclusion mask with putamen and accumbens exclusions
 
-
             fslmaths "$DIR/$group/$name/Exclusion_masks/exclusion_mask_CSF_middline_putamen_${side}.nii.gz" -add "$DIR/$group/$name/Cortical_masks/accumbens/FA_image_${side}_normalized.nii.gz" -add "$DIR/$group/$name/Cortical_masks/caudate/FA_image_${side}_normalized.nii.gz"  -bin "$DIR/$group/$name/Exclusion_masks/exclusion_mask_total_putamen_${side}.nii.gz" #exclusion mask with caudate and accumbens exclusions
 
         done;
