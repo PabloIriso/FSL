@@ -4,7 +4,7 @@
 
 A whole range of tools is available to guide the tractography. The most powerful of these is to select the seed region, which defines where the streamlines originate. In addition to this we can set termination masks to stop the streamlines, and waypoint/exclusion masks to filter out those streamlines not relevant for our analysis:  
 
-*exclusion_masks.sh* --> 
+*exclusion_masks.sh* --> *We can set termination masks to stop the streamlines, and waypoint/exclusion masks to filter out those streamlines not relevant for our analysis (e.g., filter out the streamlines not part of our white matter tract of interest). Pathways will be discarded if they enter the exclusion mask. For example, an exclusion mask of the midline will remove pathways that cross into the other hemisphere. *  
 
 
 After bedpostx has been applied it is possible to run tractography analyses using **probtrackx2**. Briefly, probtrackx2 produces sample streamlines, by starting from some seed and then iterate between (1) drawing an orientation from the voxel-wise bedpostX distributions, (2) taking a step in this direction, and (3) checking for any termination criteria. These sample streamlines can then be used to build up a histogram of how many streamlines visited each voxel or the number of streamlines connecting specific brain regions. This streamline distribution can be thought of as the posterior distribution on the streamline location or the connectivity distribution.  
