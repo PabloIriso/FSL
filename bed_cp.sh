@@ -17,14 +17,11 @@ for group in Controls Patients; do
     done;
 done;
 
-
-
 ## Move tractography
 ### This one is created previously
 
 ## Move cortical masks
 # $DIR/$group/$name/putamen_masks/FA_transformation/smoothed_${side}_putamen.nii.g
-
 
 DIR="/media/estela/HD_2/Irene/Analysis"
 for group in Controls Patients; do
@@ -41,9 +38,7 @@ for group in Controls Patients; do
     done;
 done;
 
-
 # La carpeta general caudate está en mayúsculas (Caudate), mientras que los archivos smoothed están en minúsculas, por lo que no consigue localizarlos. Creamos un nuevo script que copia únicamente las máscaras smoothed_caudate a sus correspondientes carpetas, que se han creado satisfactoriamente en el script anterior. 
-
 
 DIR="/media/estela/HD_2/Irene/Analysis"
 for group in Controls Patients; do
