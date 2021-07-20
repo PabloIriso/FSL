@@ -35,14 +35,13 @@ subcortical_masks.sh -->
 sub_masks_test.sh -->  
 
 Other useful scripts, that where used to copy and paste files we needed from different directories:  
-*bed_cp.sh   
-dti_cp.sh  
-exclusion_cp.sh  
-rename_masks.sh  *
+*bed_cp.sh*   
+*dti_cp.sh*  
+*exclusion_cp.sh*  
+*rename_masks.sh*  
 
 exclusion_cp <- Copia los archivos necesarios para la obtencion de las exlcusion masks desde los ficheros de Irene /CSF y Middline)
 Exlcusion_masks <- Crea las mascaras de exclusion.
 
-bed_cp <- Copia los archivos necesarios para la obtencion de los tractos
-(Algunos individuos no tienen mascara Bed).
+
 
