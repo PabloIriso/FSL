@@ -1,5 +1,11 @@
 # Tractography_Huntington_Disease
 
+The goal of probabilistic tractography is to obtain a connectivity index along a white matter pathway that reflects fibre organization and is sensitive to pathological abnormalities contributing to disability. Here, we present the bash scripts used to implement FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL) functions to obtain the white matter tracts associated with Hungtinton-Disease. In this manner, the first function we used was:
+
+*rois_convert.sh --> Convert our regions of interest, defined as .img format into nii.gz*
+
+In order to get our 
+
 **BEDPOSTX** stands for *Bayesian Estimation of Diffusion Parameters Obtained using Sampling Techniques*. The X stands for modelling Crossing Fibres. bedpostx runs Markov Chain Monte Carlo sampling to build up distributions on diffusion parameters at each voxel. It creates all the files necessary for running probabilistic tractography.  
 
 A whole range of tools is available to guide the tractography. The most powerful of these is to select the seed region, which defines where the streamlines originate. In addition to this we can set termination masks to stop the streamlines, and waypoint/exclusion masks to filter out those streamlines not relevant for our analysis:  
@@ -26,7 +32,7 @@ motor - putamen**
 FA_values.sh -->   
 
  
-rois_convert.sh -->  
+  
 subcortical_masks.sh -->   
 sub_masks_test.sh -->  
 
