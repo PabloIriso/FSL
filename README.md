@@ -1,6 +1,6 @@
 # Tractography_Huntington_Disease
 
-The goal of probabilistic tractography is to obtain a connectivity index along a white matter pathway that reflects fibre organization and is sensitive to pathological abnormalities contributing to disability. Here, we present the bash scripts used to implement FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL) functions to obtain the white matter tracts associated with Hungtinton-Disease. In this manner, the first function we used was:
+The goal of probabilistic tractography is to obtain a connectivity index along a white matter pathway that reflects fibre organization and is sensitive to pathological abnormalities contributing to disability. Here, we present the bash scripts used to implement FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL) functions to obtain the white matter tracts associated with Hungtinton-Disease. In this manner, the first script we used was:
 
 *rois_convert.sh --> Convert our regions of interest, defined as .img format into nii.gz*
 
@@ -22,6 +22,9 @@ After bedpostx has been applied it is possible to run tractography analyses usin
 *probtrackx_putamen.sh* -->  
 
 
+*FA_values.sh -->  This script takes a fdt_paths file obtained from Probtrackx and normalizes it by streamlines in order to apply a probability threshold. Afterwards, it obtains the FA, radial diffusivity and mean diffusivity values multiplying the normalized image by the reference image and computing the mean.*  
+
+
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FDT/UserGuide
 
 **executive - caudate  
@@ -29,7 +32,6 @@ motivational - accumbens
 motor - putamen**  
 
  
-FA_values.sh -->   
 
  
   
