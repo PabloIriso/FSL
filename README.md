@@ -15,22 +15,18 @@ A whole range of tools is available to guide the tractography. The most powerful
 
 After bedpostx has been applied it is possible to run tractography analyses using **probtrackx2**. Briefly, probtrackx2 produces sample streamlines, by starting from some seed and then iterate between (1) drawing an orientation from the voxel-wise bedpostX distributions, (2) taking a step in this direction, and (3) checking for any termination criteria. These sample streamlines can then be used to build up a histogram of how many streamlines visited each voxel or the number of streamlines connecting specific brain regions. This streamline distribution can be thought of as the posterior distribution on the streamline location or the connectivity distribution.  
 
-*probtrackx_accumbens.sh* -->  
+*probtrackx_putamen.sh -->  This script runs the Probtrackx analysis for each side (left and right) of the putamen using ROIs computed previously using FSLeyes atlas. This analysis is done for each subject in Patients and Controls. Two analysis are executed, one computing the tracts from the putamen to the cortical region and the other on the other way, form the cortical to the subcortical. Hence, we will obtain better results by doing the mean between the two analysis.*
 
-*probtrackx_caudate.sh* -->   
+*probtrackx_accumbens.sh --> Same function for accumbens*  
 
-*probtrackx_putamen.sh* -->  
+*probtrackx_caudate.sh --> Same function for caudate*  
 
-
-*FA_values.sh -->  This script takes a fdt_paths file obtained from Probtrackx and normalizes it by streamlines in order to apply a probability threshold. Afterwards, it obtains the FA, radial diffusivity and mean diffusivity values multiplying the normalized image by the reference image and computing the mean.*  
+ *FA_values.sh -->  This script takes a fdt_paths file obtained from Probtrackx and normalizes it by streamlines in order to apply a probability threshold. Afterwards, it obtains the FA, radial diffusivity and mean diffusivity values multiplying the normalized image by the reference image and computing the mean.*  
 
 
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FDT/UserGuide
 
 
-
- 
-  
 subcortical_masks.sh -->   
 sub_masks_test.sh -->  
 
