@@ -40,8 +40,5 @@ Other useful scripts, that where used to copy and paste files we needed from dif
 *exclusion_cp.sh*  
 *rename_masks.sh*  
 
-exclusion_cp <- Copia los archivos necesarios para la obtencion de las exlcusion masks desde los ficheros de Irene /CSF y Middline)
-Exlcusion_masks <- Crea las mascaras de exclusion.
-
 
 
